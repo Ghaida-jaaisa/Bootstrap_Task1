@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+}
+ .bg-body-tertiary {
+    background-color: #fff !important;
+ }
+.courses  {
+    margin: 50px 0;
+    padding: 20px 0 ;  
+}
+.row {
+    justify-content: center;
+      text-align: center;
+}
+ .courses h2 {
+  padding: 35px;
+  color: blue;
+  text-shadow: 2px 2px 2px #000;
+  font-weight: 500;
+}
+.course {
+    min-width: 200px;
+}
+.card h5 {
+    color: blue;
+    font-size: x-large;
+    text-shadow: 2px 2px 2px #000;
+}
+.card-img-top { 
+width: 100%;
+height: 250px;
+filter: opacity(.9);
+}
+
+.web-development { 
+ 
+  margin: 50px 0;
+  padding: 30px 0;
+}
+
+.web-development .row {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    align-items: center;
+    gap: 10px 20px;
+   
+    
+}
+.web-development .row h2{
+    grid-column: span 12;
+    padding: 15px;
+    border: 2px black solid;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.web-development .row div {
+    grid-column: span 6;
+    grid-row: span 2 ;
+}
+
+.web-development .row .part {
+    display: flex;
+    flex-direction: column; 
+    min-width: 300px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px #ddd;
+    margin: 20px 20px;
+    padding: 20px;
+}
+
+.part img {
+   width: 100%;
+   padding: 20px 10px;
+   border-radius:10px;
+}
+.web-development .row .part p {
+ text-align: justify;
+}

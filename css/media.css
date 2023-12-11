@@ -1,0 +1,8 @@
+@media only screen and (max-width: 750px) {
+    /* Styles for screens that are 650px wide or less */
+    
+.web-development .row div {
+    grid-column: span 12;
+    grid-row: span 1 ;    
+}
+}
